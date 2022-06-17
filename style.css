@@ -1,0 +1,112 @@
+
+#ul_inline li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    color:white;
+}
+
+#div_nav_inline {
+    background-color: darkolivegreen;
+    display:inline;
+}
+
+#navbarbreak {
+    background-color: #d7b198;
+    height: 3px;
+    margin-top: 54px;
+}
+
+#center-and-block {
+    text-align: center;
+    display: block;
+    padding-bottom: 15px;
+}
+
+#background {
+    background-color: #e4cec1;
+    padding-top: 25px;
+    flex-grow: 1;
+}
+
+#break1{
+    height: 4px; 
+    background-color: #d7b198;
+    margin-top: 5px;
+}
+
+#break2 {
+    height: 3px; 
+    background-color: #d7b198;
+    margin-top: 5px;
+}
+
+#footer {
+    background-color: #366051;
+    color: white;
+    height: 48px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#footerbottombreak{
+    background-color: #4e4847;
+    height: 5px;
+}
+
+.bottomfixed{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    color:#4e4847;
+}
+
+nav {
+    float: right;
+}
+
+h1 {
+    clear: both;
+    text-align: center;
+    padding-top:50px;
+}
+
+p {
+    display:block;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-header {
+    /* background-image: url("./strip.png") */
+    background-color: #366051;
+    position:fixed;
+    left:0;
+    right:0;
+    margin-bottom: 50px;
+    top: 0px
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
